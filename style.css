@@ -1,0 +1,147 @@
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.container1 {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header Styles */
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 50px 0;
+}
+
+header img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+header h1 {
+  margin: 20px 0 10px;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+header h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+/* Navigation Styles */
+nav {
+  background-color: #f2f2f2;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav a:hover {
+  color: #666;
+}
+
+/* Section Styles */
+section {
+  padding: 50px 0;
+}
+
+section h2 {
+  margin-bottom: 30px;
+  font-size: 30px;
+  text-align: center;
+}
+
+section ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+section li {
+  margin-bottom: 20px;
+}
+
+section li h3 {
+  margin: 0;
+  font-size: 24px;
+}
+
+section li img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+section li p {
+  margin: 0;
+}
+
+section li a {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Social Icons Styles */
+
+.social-icons {
+	margin-left: 700px;
+	margin-right: auto;
+	margin-top: 100px;
+    z-index: 9;
+    width: 120px;
+    height: 120px;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+}
+
+.social-icons li {
+  margin: 0 10px;
+}
+
+.social-icons a {
+  color: #333;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: #666;
+}
+/*Skills Style*/
+.checked {
+  color: cyan;
+	
+}
